@@ -1,0 +1,861 @@
+Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00)
+Maven home: C:\Program Files\apache-maven-3.5.4\bin\..
+Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_171\jre
+Default locale: en_CA, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Program Files\apache-maven-3.5.4\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\heman\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\apache-maven-3.5.4\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\heman\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\heman\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\heman\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1493438, ConflictMarker.markTime=772661, ConflictMarker.nodeCount=99, ConflictIdSorter.graphTime=1900287, ConflictIdSorter.topsortTime=805489, ConflictIdSorter.conflictIdCount=36, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=9816830, ConflictResolver.conflictItemCount=88, DefaultDependencyCollector.collectTime=387248761, DefaultDependencyCollector.transformTime=17131015}
+[DEBUG] org.mule.tools.maven:mule-app-maven-plugin:jar:1.2:
+[DEBUG]    org.jfrog.maven.annomojo:maven-plugin-tools-anno:jar:1.4.0:compile
+[DEBUG]       org.jfrog.maven.annomojo:maven-plugin-anno:jar:1.4.0:compile
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          jtidy:jtidy:jar:4aug2000r7-dev:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       com.sun:tools:jar:1.5.0:system
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.12:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.slf4j:slf4j-simple:jar:1.6.6:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.6:compile
+[DEBUG]    org.mule.tools:mule-artifact-archiver:jar:1.1:compile
+[DEBUG] Created new class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG] Importing foreign packages into class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.mule.tools.maven:mule-app-maven-plugin:1.2
+[DEBUG]   Included: org.mule.tools.maven:mule-app-maven-plugin:jar:1.2
+[DEBUG]   Included: org.jfrog.maven.annomojo:maven-plugin-tools-anno:jar:1.4.0
+[DEBUG]   Included: org.jfrog.maven.annomojo:maven-plugin-anno:jar:1.4.0
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: jtidy:jtidy:jar:4aug2000r7-dev
+[DEBUG]   Included: com.sun:tools:jar:1.5.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.0.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.12
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.slf4j:slf4j-simple:jar:1.6.6
+[DEBUG]   Included: org.mule.tools:mule-artifact-archiver:jar:1.1
+[DEBUG] Extension realms for project com.mycompany:practiceprj:mule:1.0.0-SNAPSHOT: [ClassRealm[extension>org.mule.tools.maven:mule-app-maven-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@5c647e05]]
+[DEBUG] Created new class realm project>com.mycompany:practiceprj:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm project>com.mycompany:practiceprj:1.0.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging mule from ClassRealm[project>com.mycompany:practiceprj:1.0.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.mycompany:practiceprj:mule:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ---------------------< com.mycompany:practiceprj >----------------------
+[INFO] Building Mule practiceprj Application 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ mule ]--------------------------------
+[DEBUG] Failure to find org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 3.0.2 from repository C:\Users\heman\.m2\repository (enhanced)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 3.8.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 3.0.0-M1 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (C:\Users\heman\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 3.0.0-M1 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (C:\Users\heman\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in http://repository.mulesoft.org/releases/ was cached in the local repository, resolution will not be reattempted until the update interval of mulesoft-release has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 3.0.0-M1 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.mycompany:practiceprj:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [Central (http://repo1.maven.org/maven2/, default, releases+snapshots), mulesoft-releases (http://repository.mulesoft.org/releases/, default, releases+snapshots), mulesoft-ee (https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [mulesoft-release (http://repository.mulesoft.org/releases/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-app-maven-plugin:1.2:attach-test-resources (default-attach-test-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiDirectory>${basedir}/src/main/api</apiDirectory>
+  <appDirectory>${basedir}/src/main/app</appDirectory>
+  <finalName default-value="${project.build.finalName}">${appName}</finalName>
+  <mappingsDirectory>${basedir}/mappings</mappingsDirectory>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:build-helper-maven-plugin:1.7:add-resource (add-resource)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project>${project}</project>
+  <resources>
+    <resource>
+      <directory>src/main/app/</directory>
+    </resource>
+    <resource>
+      <directory>src/main/api/</directory>
+    </resource>
+    <resource>
+      <directory>mappings/</directory>
+    </resource>
+  </resources>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-app-maven-plugin:1.2:filter-resources (default-filter-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiDirectory>${basedir}/src/main/api</apiDirectory>
+  <appDirectory>${basedir}/src/main/app</appDirectory>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeWindowsPaths default-value="true"/>
+  <filterAppDirectory default-value="false"/>
+  <filters default-value="${project.build.filters}"/>
+  <finalName default-value="${project.build.finalName}">${appName}</finalName>
+  <mappingsDirectory>${basedir}/mappings</mappingsDirectory>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <junitPlatformArtifactName default-value="org.junit.platform:junit-platform-engine">${junitPlatformArtifactName}</junitPlatformArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <session default-value="${session}"/>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.mulesoft.munit.tools:munit-maven-plugin:1.3.7:test (test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${additionalClasspathElements}</additionalClasspathElements>
+  <argLines>${argLines}</argLines>
+  <classpathDependencyExcludes>${classpathDependencyExcludes}</classpathDependencyExcludes>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <coverage>
+    <runCoverage>true</runCoverage>
+    <formats>
+      <format>html</format>
+    </formats>${munit.coverage}</coverage>
+  <dynamicPorts>${dynamic.ports}</dynamicPorts>
+  <enableSurefireReports default-value="true">${enableSurefireReports}</enableSurefireReports>
+  <environmentVariables>${environment.variables}</environmentVariables>
+  <logToFile default-value="false">${log.to.file}</logToFile>
+  <muleWorkingDirectory default-value="${project.build.directory}/.mule"/>
+  <munitReportsDirectory default-value="${project.build.directory}/munit-reports/"/>
+  <munitTestsDirectory default-value="${project.basedir}/src/test/munit/"/>
+  <munittest>${munit.test}</munittest>
+  <project>${project}</project>
+  <redirectTestOutputToFile default-value="false">${redirectTestOutputToFile}</redirectTestOutputToFile>
+  <surefireReportsFolder default-value="${project.build.directory}/surefire-reports/"/>
+  <systemPropertyVariables>${system.property.variables}</systemPropertyVariables>
+  <testOutputDirectory default-value="${project.build.directory}/munit-reports/output/"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.mule.tools.maven:mule-app-maven-plugin:1.2:mule (default-mule)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiDirectory>${basedir}/src/main/api</apiDirectory>
+  <appDirectory>${basedir}/src/main/app</appDirectory>
+  <archiveClasses default-value="false">${archiveClasses}</archiveClasses>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <excludeMuleDependencies default-value="true"/>
+  <filterAppDirectory default-value="false"/>
+  <finalName default-value="${project.build.finalName}">${appName}</finalName>
+  <mappingsDirectory>${basedir}/mappings</mappingsDirectory>
+  <outputDirectory>${project.build.directory}</outputDirectory>
+  <project>${project}</project>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/
+Downloading from mulesoft-ee: https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/org/mule/edi/edi/1.2.7/edi-1.2.7.pom
+[DEBUG] Writing tracking file C:\Users\heman\.m2\repository\org\mule\edi\edi\1.2.7\edi-1.2.7.pom.lastUpdated
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=4021293, ConflictMarker.markTime=995137, ConflictMarker.nodeCount=600, ConflictIdSorter.graphTime=1607169, ConflictIdSorter.topsortTime=241822, ConflictIdSorter.conflictIdCount=190, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=20920158, ConflictResolver.conflictItemCount=378, DefaultDependencyCollector.collectTime=2434337948, DefaultDependencyCollector.transformTime=27814889}
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.642 s
+[INFO] Finished at: 2018-11-20T10:46:49-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project practiceprj: Could not resolve dependencies for project com.mycompany:practiceprj:mule:1.0.0-SNAPSHOT: Failed to collect dependencies at com.mulesoft.weave:mule-plugin-weave:jar:3.8.4 -> com.mulesoft.weave:flatfile:jar:1.1.4 -> org.mule.edi:edi-parser:jar:1.2.7: Failed to read artifact descriptor for org.mule.edi:edi-parser:jar:1.2.7: Could not transfer artifact org.mule.edi:edi:pom:1.2.7 from/to mulesoft-ee (https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/): Not authorized , ReasonPhrase:Unauthorized. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project practiceprj: Could not resolve dependencies for project com.mycompany:practiceprj:mule:1.0.0-SNAPSHOT: Failed to collect dependencies at com.mulesoft.weave:mule-plugin-weave:jar:3.8.4 -> com.mulesoft.weave:flatfile:jar:1.1.4 -> org.mule.edi:edi-parser:jar:1.2.7
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:269)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.project.DependencyResolutionException: Could not resolve dependencies for project com.mycompany:practiceprj:mule:1.0.0-SNAPSHOT: Failed to collect dependencies at com.mulesoft.weave:mule-plugin-weave:jar:3.8.4 -> com.mulesoft.weave:flatfile:jar:1.1.4 -> org.mule.edi:edi-parser:jar:1.2.7
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:178)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.eclipse.aether.collection.DependencyCollectionException: Failed to collect dependencies at com.mulesoft.weave:mule-plugin-weave:jar:3.8.4 -> com.mulesoft.weave:flatfile:jar:1.1.4 -> org.mule.edi:edi-parser:jar:1.2.7
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:293)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.mule.edi:edi-parser:jar:1.2.7
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:323)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:192)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:539)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:522)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:411)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:256)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.model.resolution.UnresolvableModelException: Could not transfer artifact org.mule.edi:edi:pom:1.2.7 from/to mulesoft-ee (https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/): Not authorized , ReasonPhrase:Unauthorized.
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:178)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:224)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally (DefaultModelBuilder.java:1052)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParent (DefaultModelBuilder.java:830)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:332)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:314)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:192)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:539)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:522)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:411)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:256)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact org.mule.edi:edi:pom:1.2.7 from/to mulesoft-ee (https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/): Not authorized , ReasonPhrase:Unauthorized.
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:422)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:224)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:201)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:174)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:224)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally (DefaultModelBuilder.java:1052)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParent (DefaultModelBuilder.java:830)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:332)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:314)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:192)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:539)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:522)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:411)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:256)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.mule.edi:edi:pom:1.2.7 from/to mulesoft-ee (https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/): Not authorized , ReasonPhrase:Unauthorized.
+    at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed (ArtifactTransportListener.java:52)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:365)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:583)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:259)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:498)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:399)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:224)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:201)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:174)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:224)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally (DefaultModelBuilder.java:1052)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParent (DefaultModelBuilder.java:830)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:332)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:314)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:192)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:539)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:522)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:411)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:256)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.wagon.authorization.AuthorizationException: Not authorized , ReasonPhrase:Unauthorized.
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:1008)
+    at org.apache.maven.wagon.providers.http.wagon.shared.AbstractHttpClientWagon.fillInputData (AbstractHttpClientWagon.java:963)
+    at org.apache.maven.wagon.StreamWagon.getInputStream (StreamWagon.java:126)
+    at org.apache.maven.wagon.StreamWagon.getIfNewer (StreamWagon.java:88)
+    at org.apache.maven.wagon.StreamWagon.get (StreamWagon.java:61)
+    at org.eclipse.aether.transport.wagon.WagonTransporter$GetTaskRunner.run (WagonTransporter.java:567)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.execute (WagonTransporter.java:435)
+    at org.eclipse.aether.transport.wagon.WagonTransporter.get (WagonTransporter.java:412)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask (BasicRepositoryConnector.java:453)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run (BasicRepositoryConnector.java:360)
+    at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run (RunnableErrorForwarder.java:75)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute (BasicRepositoryConnector.java:583)
+    at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get (BasicRepositoryConnector.java:259)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:498)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:399)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:224)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:201)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:174)
+    at org.apache.maven.repository.internal.DefaultModelResolver.resolveModel (DefaultModelResolver.java:224)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally (DefaultModelBuilder.java:1052)
+    at org.apache.maven.model.building.DefaultModelBuilder.readParent (DefaultModelBuilder.java:830)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:332)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:314)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:192)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.resolveCachedArtifactDescriptor (DefaultDependencyCollector.java:539)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.getArtifactDescriptorResult (DefaultDependencyCollector.java:522)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:411)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.doRecurse (DefaultDependencyCollector.java:507)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:460)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.processDependency (DefaultDependencyCollector.java:365)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.process (DefaultDependencyCollector.java:353)
+    at org.eclipse.aether.internal.impl.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:256)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:282)
+    at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve (DefaultProjectDependenciesResolver.java:169)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.getDependencies (LifecycleDependencyResolver.java:243)
+    at org.apache.maven.lifecycle.internal.LifecycleDependencyResolver.resolveProjectDependencies (LifecycleDependencyResolver.java:147)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.ensureDependenciesAreResolved (MojoExecutor.java:246)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:200)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:954)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
